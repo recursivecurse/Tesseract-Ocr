@@ -17,14 +17,19 @@ class TessOcr:
         self.but1 = Button(master,text="Convert",command=self.Change)
         self.but1.place(x=150,y=200)
         self.but2 = Button(master,text="Quit",command=self.quit)
-        self.but2.place(x=250,y=200)
+        self.but2.place(x=300,y=200)
 
     def Change(self):
 
         self.label1.configure(text= convert())
     
-    def quit():
+
+
+    def quit(self):
+    
         exit()
+
+
 
 
 
